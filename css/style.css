@@ -251,6 +251,7 @@ input[type=number].hide-controls { -moz-appearance: textfield; }
 
 .badge { margin-left: 4px; padding: 2px 3px; background: var(--color-stop-2); border-radius: var(--radius-xs); color: var(--color-stop-4); font-size: 8px; font-weight: 600; text-transform: uppercase; vertical-align: 7%; }
 	:is(.has-team, .partner--hitquota) .badge-plus { display: none; }
+	.badge-plus { display: none !important; } /* Hide all premium badges - features are now free */
 
 	h3 .badge, h4 .badge { vertical-align: 18%; }
 	.button:not(.button-clear) .badge { margin-left: 3px; background: rgba(255 255 255 / 20%); color: white; vertical-align: 20%; }
